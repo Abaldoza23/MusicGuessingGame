@@ -1,5 +1,5 @@
 const myDiv = document.getElementById("myDiv");
-const audio = new Audio("audio/gamemusic.mp3"); // Replace 'sound.mp3' with your actual sound file path
+const audio = new Audio("/audio/gamemusic.mp3");
 
 // Global variables
 const startPos = 1100; // Horizontal starting position of notes on staff
